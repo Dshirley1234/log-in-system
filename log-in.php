@@ -2,12 +2,12 @@
 <html>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <div style="padding:50px; margin-top: 3em;">
-        <h1>Sign up for an account!</h1>
+        <h1>Log in</h1>
 
-        <form action="sign-up-action.php" method="post">
+        <form action="log-in-action.php" method="post">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input name="email" type="email" class="form-control" id="exampleInputEmail1">
+                <input name="email" type="email" class="form-control" id="exampleInputEmail">
                 <!--textbox for user to enter email-->
             </div>
            
